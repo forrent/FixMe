@@ -3,7 +3,7 @@
 class Json {
 	
 	public function encodeData ($data) {
-		return json_encode(array('data' => $_data));
+		return json_encode(array($data));
 	}
 	
 	public function decodeData ($jsonString) {
